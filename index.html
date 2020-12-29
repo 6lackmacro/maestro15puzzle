@@ -1,0 +1,47 @@
+<html><head>
+<title>Puzzle Game</title>
+<style type="text/css">
+body {background-color: rgb(196,196,220)}
+body, p, td, form, input {font-size: 10pt; line-height: 135%;}
+input {background-color: rgb(255,245,255)}
+</style>
+</head><body>
+
+<p align="center">자바 스크립트 퍼즐 게임<br>
+(c) 1999 김백진
+</p>
+
+<p><div align="center">
+<table border=1 cellpadding=0 cellspacing=0><tr><td>
+<table border=0 cellpadding=0 cellspacing=0><tr>
+<td><div onClick="buzzle01(); right()"><img src="puzzle02.jpg" border=0 name="puzzle01"></div></td>
+<td><div onClick="buzzle02(); right()"><img src="puzzle01.jpg" border=0 name="puzzle02"></div></td>
+<td><div onClick="buzzle03(); right()"><img src="puzzle06.jpg" border=0 name="puzzle03"></div></td>
+<td><div onClick="buzzle04(); right()"><img src="puzzle04.jpg" border=0 name="puzzle04"></div></td></tr><tr>
+<td><div onClick="buzzle06(); right()"><img src="puzzle03.jpg" border=0 name="puzzle06"></div></td>
+<td><div onClick="buzzle07(); right()"><img src="puzzle07.jpg" border=0 name="puzzle07"></div></td>
+<td><div onClick="buzzle08(); right()"><img src="puzzle08.jpg" border=0 name="puzzle08"></div></td>
+<td><div onClick="buzzle09(); right()"><img src="puzzle09.jpg" border=0 name="puzzle09"></div></td></tr><tr>
+<td><div onClick="buzzle11(); right()"><img src="puzzle11.jpg" border=0 name="puzzle11"></div></td>
+<td><div onClick="buzzle12(); right()"><img src="puzzle12.jpg" border=0 name="puzzle12"></div></td>
+<td><div onClick="buzzle13(); right()"><img src="puzzle13.jpg" border=0 name="puzzle13"></div></td>
+<td><div onClick="buzzle14(); right()"><img src="puzzle14.jpg" border=0 name="puzzle14"></div></td></tr><tr>
+<td><div onClick="buzzle16(); right()"><img src="puzzle16.jpg" border=0 name="puzzle16"></div></td>
+<td><div onClick="buzzle17(); right()"><img src="puzzle20.gif" border=0 name="puzzle17"></div></td>
+<td><div onClick="buzzle18(); right()"><img src="puzzle17.jpg" border=0 name="puzzle18"></div></td>
+<td><div onClick="buzzle19(); right()"><img src="puzzle18.jpg" border=0 name="puzzle19"></div></td>
+</tr></table></td></tr></table></div></p>
+
+<div align="center">
+<form name="form1">
+마우스 이동 : <input type="text" name="text1" value=0 size=5>
+유효치 : <input type="text" name="text2" value=0 size=5>
+<BR>마우스 조작 정확도 : <input type="text" name="text3" value="100%" size=5>
+<br>경과 시간 : <input type="text" name="text4" value="0초" size=8>
+
+</form>
+</div>
+
+<script src="4xpuzzle.js" language="JavaScript"></script>
+
+</body></html>
