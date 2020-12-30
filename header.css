@@ -5,3 +5,11 @@
   margin-bottom: 30px;
   flex-direction: column;
 }
+.header .header__title {
+  display: flex;
+  font-size: 40px;
+  font-weight: 600;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
