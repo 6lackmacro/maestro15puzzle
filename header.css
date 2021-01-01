@@ -6,6 +6,11 @@
   flex-direction: column;
   font-size: 20px;
 }
+.header .header__header-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .header .header__title {
   display: flex;
   font-size: 40px;
@@ -16,7 +21,6 @@
   padding-top: 20%;
   padding-bottom: 10%;
 }
-
 .header .header__icon {
   display: flex;
   font-size: 20px;
