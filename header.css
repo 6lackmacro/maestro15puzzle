@@ -32,7 +32,7 @@
 }
 .header .header__title {
   display: flex;
-  font-size: 10px;
+  font-size: 40px;
   font-weight: 600;
   align-items: center;
   text-align: center;
@@ -42,7 +42,7 @@
 }
 .header .header__text {
   display: flex;
-  font-size: 40px;
+  font-size: 10px;
   font-weight: 600;
   align-items: center;
   text-align: center;
