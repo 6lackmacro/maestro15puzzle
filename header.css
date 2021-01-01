@@ -27,9 +27,6 @@
   margin-left: 20px;
   cursor: pointer;
   margin-top: 20px;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
 }
 .header .header__img {
   display: flex;
