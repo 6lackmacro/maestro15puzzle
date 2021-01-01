@@ -385,7 +385,7 @@ function right() {
         tbonus.charAt(3) +
         tbonus.charAt(4);
       setTimeout(
-        "alert('축하합니다 ' + form1.text4.value + ' 만에 풀었습니다. 마우스 정확도는 ' + form1.text3.value + ' 입니다. 이 화면을 캡쳐해서 wwilliam77@sasa.hs.kr로 보내주세요.');",
+        "alert('축하합니다. ' + form1.text4.value + ' 만에 풀었습니다. 마우스 정확도는 ' + form1.text3.value + ' 입니다. 이 화면을 캡쳐해서 wwilliam77@sasa.hs.kr로 보내주세요.');",
         100
       );
       ggb = 1;
