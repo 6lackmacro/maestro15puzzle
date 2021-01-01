@@ -38,6 +38,7 @@
   text-align: center;
   justify-content: center;
   padding-top: 20%;
+  padding-bottom: 10%;
 }
 .header .header__icon {
   display: flex;
