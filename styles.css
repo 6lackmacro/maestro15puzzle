@@ -1,11 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import "reset.css";
 @import "header.css";
 body {
   background-color: white;
   padding: 10px 20px;
   color: #020202;
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
