@@ -67,6 +67,6 @@
   transform: scaleX(0);
   transition: transform 250ms ease-in-out;
 }
-text:hover:after {
+.text:hover:after {
   transform: scaleX(1);
 }
