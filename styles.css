@@ -7,6 +7,9 @@ body {
   color: #020202;
   font-family: "Montserrat", sans-serif;
 }
+div {
+  font-family: "Montserrat", sans-serif;
+}
 
 a {
   color: inherit;
