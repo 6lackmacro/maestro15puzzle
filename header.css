@@ -3,10 +3,14 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
-  font-size: 15px;
   flex-direction: column;
+  font-size: 20px;
 }
-
+.header .header__header-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .header .header__title {
   display: flex;
   font-size: 40px;
@@ -14,8 +18,9 @@
   align-items: center;
   text-align: center;
   justify-content: center;
+  padding-top: 20%;
+  padding-bottom: 10%;
 }
-
 .header .header__icon {
   display: flex;
   font-size: 20px;
@@ -23,7 +28,6 @@
   cursor: pointer;
   margin-top: 20px;
 }
-
 .header .header__img {
   display: flex;
   align-items: center;
@@ -31,10 +35,4 @@
   margin-bottom: 40px;
   cursor: pointer;
   overflow: hidden;
-}
-
-.header .header__header-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
