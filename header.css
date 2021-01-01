@@ -42,7 +42,7 @@
 }
 .header .header__text {
   display: flex;
-  font-size: 10px;
+  font-size: 20px;
   font-weight: 600;
   align-items: center;
   text-align: center;
